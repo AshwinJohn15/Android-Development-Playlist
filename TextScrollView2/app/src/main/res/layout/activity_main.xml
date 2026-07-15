@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ashwin"
+        />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="file:///C:/Users/ashwin/AndroidStudioProjects/TextScrollView2/app/src/main/java/com/example/textscrollview2/MainActivity.kt:9:24 Unresolved reference: R
+WorkerExecutor Queue: reuse connection
+WorkerExecutor Queue: free connection (reuse = true)
+WorkerExecutor Queue: reuse connection
+Finished executing kotlin compiler using DAEMON strategy
+Execution worker: acquired lock on worker lease
+Build operation 'Execute execute for :app:compileDebugKotlin' completed
+Build operation 'Executing task ':app:compileDebugKotlin'' completed
+
+Build operation 'Snapshot outputs after executing task ':app:compileDebugKotlin'' completed
+Removed task artifact state for task ':app:compileDebugKotlin' from context.
+Completing Build operation 'Task :app:compileDebugKotlin'
+
+Build operation 'Task :app:compileDebugKotlin' completed
+Node :app:compileDebugKotlin completed, executed: true
+w" />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ashwin"
+        />
+
+
+
+</LinearLayout>
